@@ -1,0 +1,8 @@
+__pycache__/
+*.__pyc
+*.joblib
+.env
+venv/
+data/
+predictions.csv
+creditcard_fraud_detection.csv
