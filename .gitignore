@@ -1,17 +1,23 @@
-# Data files
+# Data artifacts
 *.csv
+*.tsv
+*.xlsx
+*.json
 
-# Models
+# Model files
 *.joblib
 *.pkl
+*.h5
+*.pt
 
-# Python
-__pycache__/
-*.pyc
+# Logs and outputs
+*.log
+*.out
 
-# Environment
-.env
-venv/
+# Jupyter and VSCode
+.ipynb_checkpoints/
+.vscode/
 
-# OS
+# OS and editor clutter
 .DS_Store
+Thumbs.db
